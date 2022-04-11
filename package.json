@@ -1,7 +1,7 @@
 {
   "name": "gulp-ng-templatecache-loader",
   "description": "Build javascript file to load the AngularJS templates cache.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/softlife/gulp-ng-templatecache-loader.git"
