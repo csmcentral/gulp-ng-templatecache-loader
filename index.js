@@ -1,5 +1,5 @@
 /*****************************************************************************************
-* $Id: index.js 19100 2019-06-07 19:38:49Z sthames $
+* $Id$
 /**
 * Parse custom, [htmlprocessor] style build blocks in HTML files to build a javascript 
 * file to preload the [AngularJS] template cache using the [$templateCache] service. Uses
@@ -10,6 +10,7 @@
 *****************************************************************************************/
 module.exports = (function()
   {
+  var gulp          = require('gulp');
   var colors        = require('ansi-colors');
   var streams       = require('event-stream');
   var log           = require('fancy-log');
