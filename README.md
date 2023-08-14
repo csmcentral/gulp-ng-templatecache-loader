@@ -1,5 +1,7 @@
 # gulp-ng-templatecache-loader
 
+This is a fork of [gulp-ng-templatecache-loader](https://github.com/softlife/gulp-ng-templatecache-loader)
+
 Parse custom, [htmlprocessor] style build blocks in HTML files to build a javascript file 
 to preload the [AngularJS] template cache using the [$templateCache] service. Uses
 [gulp-angular-templatecache] to build a cache loader file with template files specified in
