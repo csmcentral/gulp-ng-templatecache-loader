@@ -1,7 +1,7 @@
 node_modules
 # The reason we ignore the lock file is because we explicitly pin our
 # version in the package.json file.
-# Ultimately the reaeson we do that is because we pull in our @csmcentral
+# Ultimately the reason we do that is because we pull in our @csmcentral
 # packages as git repos and not from npm. The syntax of "csmcentral/<package-name>"
 # pulls in the latest version of the package from the default branch. 
 # If we had the lock file, it would pin the version to the last installed version
