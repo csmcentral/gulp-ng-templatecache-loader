@@ -1,5 +1,5 @@
 {
-  "name": "@slcpub/gulp-ng-templatecache-loader",
+  "name": "@csmcentral/gulp-ng-templatecache-loader",
   "description": "Build javascript file to load the AngularJS templates cache.",
   "version": "1.0.1",
   "repository": {
@@ -9,20 +9,17 @@
   "homepage": "https://github.com/softlife/gulp-ng-templatecache-loader#readme",
   "main": "index.js",
   "dependencies": {
-    "ansi-colors": "^1.1.0",
-    "event-stream": "^3.3.2",
-    "fancy-log": "^1.3.2",
-    "gulp-angular-templatecache": "^1.8.0",
-    "gulp-eol": "^0.1.2",
-    "gulp-filter": "^3.0.1",
-    "htmlprocessor": "^0.2.6",
-    "through2": "^3.0.1",
-    "vinyl": "^2.1.0"
+    "ansi-colors": "1.1.0",
+    "event-stream": "3.3.2",
+    "fancy-log": "1.3.3",
+    "gulp-angular-templatecache": "1.9.1",
+    "gulp-eol": "0.1.2",
+    "gulp-filter": "3.0.1",
+    "htmlprocessor": "0.2.6",
+    "through2": "3.0.2",
+    "vinyl": "2.2.1"
   },
   "devDependencies": {
-    "gulp-debug": "^3.2.0"
-  },
-  "publishConfig": {
-    "@slcpub:registry": "https://gitlab.com/api/v4/projects/34256364/packages/npm/"
+    "gulp-debug": "3.2.0"
   }
 }
